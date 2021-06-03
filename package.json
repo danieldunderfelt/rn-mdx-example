@@ -9,22 +9,19 @@
   },
   "dependencies": {
     "@mdx-js/runtime": "^2.0.0-next.9",
-    "asyncstorage-down": "^4.2.0",
     "expo": "~41.0.1",
     "expo-status-bar": "~1.0.4",
-    "node-libs-react-native": "^1.2.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
     "react-native-fit-image": "^1.5.5",
-    "react-native-level-fs": "^3.0.1",
-    "react-native-web": "~0.13.12",
-    "rn-mdx": "file:.yalc/rn-mdx"
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
+    "prettier": "^2.3.0",
     "typescript": "~4.0.0"
   },
   "private": true

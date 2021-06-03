@@ -19,6 +19,7 @@ A large collection of code samples which have been tested against GitHub's markd
 ## Code Examples with Preview
 
 ### Block Elements
+
 Header 1
 ========
 
@@ -31,15 +32,6 @@ Header 2
 #### Header 4
 ##### Header 5
 ###### Header 6
-
-# Header 1 #
-## Header 2 ##
-### Header 3 ###
-#### Header 4 ####
-##### Header 5 #####
-###### Header 6 #####
-
-## This is a header.
 
 > 1. This is the first list item.
 > 2. This is the second list item.
@@ -60,11 +52,19 @@ Header 2
 
 * * *
 
+(spacing)
+
 ***
+
+(spacing)
 
 *****
 
+(spacing)
+
 - - -
+
+(spacing)
 
 ---------------------------------------
 
@@ -72,7 +72,7 @@ This is [an example](http://example.com "Example") link.
 
 [This link](http://example.com) has no title attr.
 
-This is [an example] [id] reference-style link.
+This is [an example][id] reference-style link.
 
 [id]: http://example.com "Optional Title"
 

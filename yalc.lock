@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "rn-mdx": {
-      "signature": "f9412497dd5e4349c5d21f132d74201e",
-      "file": true
-    }
-  }
-}

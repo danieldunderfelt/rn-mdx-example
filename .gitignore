@@ -3,6 +3,7 @@ node_modules/
 .expo-shared/
 .yalc/
 yarn-error.log
+rn-mdx/
 
 npm-debug.*
 *.jks
