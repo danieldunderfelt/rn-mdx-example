@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { RenderMdx } from './rn-mdx'
+import { RenderMdx } from 'rn-mdx'
 
 const CustomComponent = () => {
   return (
@@ -19,7 +19,7 @@ A very cool Custom Component!
           
 <CustomComponent />
 
-Space text
+Space text yeehaw!
 
 <CustomComponent />
 
@@ -33,6 +33,8 @@ That's right!
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#fff000',
   },
 })

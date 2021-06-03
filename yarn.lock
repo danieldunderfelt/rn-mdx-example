@@ -5758,6 +5758,14 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
+rn-mdx@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/rn-mdx/-/rn-mdx-0.0.3.tgz#72fd174e244f329999dd057502ec81dba2d4e53d"
+  integrity sha512-nFSNiQFqV69XxkhspwtXtOhmAUDqikcy4Dy6WhJSi1CMK6Gf1D8yusU/WF8/Mstzgsy66Z4BLlhQky8NCLLCPQ==
+  dependencies:
+    "@mdx-js/runtime" "^2.0.0-next.9"
+    react-native-fit-image "^1.5.5"
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
