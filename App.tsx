@@ -1,31 +1,15 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import { RenderMdx } from 'rn-mdx'
+import { CustomComponent, TextComponent } from './customComponents'
+import content from './content.mdx'
 
-const CustomComponent = () => {
-  return (
-    <View style={{ backgroundColor: 'red', width: 100, height: 100 }}>
-      <Text style={{ color: 'white' }}>Wow a red box!</Text>
-    </View>
-  )
-}
+console.log(content)
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <RenderMdx components={{ CustomComponent }}>
-        {`
-A very cool Custom Component!
-          
-<CustomComponent />
-
-Space text yeehaw!
-
-<CustomComponent />
-
-That's right!
-        `}
-      </RenderMdx>
+      <RenderMdx components={{ CustomComponent, TextComponent }}>{content}</RenderMdx>
     </View>
   )
 }
@@ -35,6 +19,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff000',
+    backgroundColor: 'green',
   },
 })
