@@ -1,20 +1,17 @@
 import { Text, View } from 'react-native'
 import React from 'react'
 
-export const CustomComponent = props => {
-  let { label = 'Wow!', color = 'red' } = props
+export const ColorBox = props => {
+  let { label, color = 'red', labelColor = 'white' } = props
 
   return (
     <View style={{ backgroundColor: color, width: 100, height: 100 }}>
-      <Text style={{ color: 'white' }}>{label}</Text>
+      {label && <Text style={{ color: labelColor }}>{label}</Text>}
     </View>
   )
 }
 
-export const TextComponent = props => {
-  return (
-    <Text style={{ fontWeight: 'bold', fontSize: 40, lineHeight: 50, height: 50 }}>
-      {props.children}
-    </Text>
-  )
+export const ColorText = props => {
+  let { color = 'white' } = props
+  return <Text style={{ color, fontSize: 18 * 1.15 }}>{props.children}</Text>
 }
