@@ -5,8 +5,6 @@ import { ColorBox, ColorText } from './customComponents'
 import content from './content.mdx'
 import { Image } from 'react-native'
 
-console.log(content)
-
 export default function App() {
   return (
     <View style={styles.container}>
